@@ -1,0 +1,110 @@
+ @font-face {
+      font-family: OpenSans;
+     src: url("assets/OpenSans-Italic.ttf");
+   }
+    @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+    @keyframes color-change{
+      0% {
+      color:rgb(0,0,0);}
+      100%{
+      color:rgb(255,255,255);}
+      }
+      .black-white{
+        animation: color-change 3s infinite;
+        }
+      
+     }
+   body {
+       font-family: OpenSans-Italic, OpenSans;
+       font-weight: 300;
+       min-height: 100vh;
+       margin: 100; padding: 0;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+   * {
+    box-sizing: border-box;
+  }
+  .header{
+      background-color: rgba(246,237,222,0.7);
+   /* border: 1px solid red;*/
+  }
+  .main{
+    /*border: 1px solid blue;*/
+    background-image: url(../rsschool-cv-html/assets/jpg.jpg);
+  }
+  .name{
+    font-size: 64px;
+  }
+  .footer{
+    width: 50%;
+    margin: 20px;
+    padding: 0 20px;
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+  .list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .list_second {
+    list-style: none;
+  }
+  .link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+  }
+ 
+  html {
+    scroll-behavior: smooth; 
+  }
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      
+      .section {
+        width: 50%;
+        float: right;
+      }
+      .round {
+        border-radius: 90px;
+        box-shadow: 0 0 0 5px rgb(64, 63, 63), 0 0 13px rgb(0, 0, 0);
+      }
+  .body{
+      color:rgb(49,49,49);
+      background-color: rgb(134, 134, 112);
+      position: relative;
+  }
+ .list_third{
+     height: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+   }
+   .cont{
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
+   }
+   
+   
